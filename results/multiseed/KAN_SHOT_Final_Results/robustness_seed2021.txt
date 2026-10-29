@@ -1,0 +1,26 @@
+Starting Robustness Evaluation on 50 episodes...
+
+=======================================================
+Robustness Results on 50 episodes (episodes/lc5way_shot5_seed2021.json):
+--- gaussian_blur ---
+  Severity 1: 59.76%
+  Severity 2: 57.97%
+  Severity 3: 45.87%
+--- gaussian_noise ---
+  Severity 1: 59.25%
+  Severity 2: 51.07%
+  Severity 3: 37.65%
+--- stain_jitter ---
+  Severity 1: 55.47%
+  Severity 2: 50.53%
+  Severity 3: 40.24%
+--- jpeg_compression ---
+  Severity 1: 56.99%
+  Severity 2: 55.52%
+  Severity 3: 54.05%
+--- brightness_shift ---
+  Severity 1: 58.53%
+  Severity 2: 54.32%
+  Severity 3: 48.64%
+=======================================================
+

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark in your research, please cite our paper as below."
+title: "KAN-SHOT: Kolmogorov-Arnold Networks as Interpretable Distance Metrics for Cross-Domain Few-Shot Histopathology"
+authors:
+  - family-names: "Maulana"
+    given-names: "Rifqi Alan"
+  - family-names: "Amir"
+    given-names: "Supri"
+year: 2026
+url: "https://github.com/RfqiAlan/KAN-SHOT-FSL"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Maulana"
+      given-names: "Rifqi Alan"
+    - family-names: "Amir"
+      given-names: "Supri"
+  title: "KAN-SHOT: Kolmogorov-Arnold Networks as Interpretable Distance Metrics for Cross-Domain Few-Shot Histopathology"
+  year: 2026
+

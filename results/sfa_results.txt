@@ -1,0 +1,4 @@
+SFA Evaluation on episodes/lc5way_shot5_seed2021.json
+Episodes: 50
+Mean Insertion AUC: 0.5163
+Mean Deletion AUC: 0.3233

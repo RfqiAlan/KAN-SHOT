@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large Raw Datasets (Users download directly per instructions)
+data/raw/
+data/lc25000/
+data/lc25000_flat/
+
+# Checkpoint exceptions (keep seed2021 by default or manage via release)
+# checkpoints/*.tar.gz
+
