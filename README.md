@@ -88,8 +88,8 @@ KAN-SHOT-Publication-Ready/
 ### 1. Installation
 Clone the repository and install the verified dependencies:
 ```bash
-git clone https://github.com/RfqiAlan/KAN-SHOT-FSL.git
-cd KAN-SHOT-FSL
+git clone https://github.com/RfqiAlan/KAN-SHOT.git
+cd KAN-SHOT
 pip install -r requirements.txt
 ```
 
@@ -232,7 +232,7 @@ python scripts/run_phase_b_metric.py \
 ## 🔒 Anonymity Notice for Peer-Review
 
 If this work is undergoing **Double-Blind Peer Review**, please access this repository via the anonymous mirror:
-> `https://anonymous.4open.science/r/KAN-SHOT-FSL-XXXX`  
+> `https://anonymous.4open.science/r/KAN-SHOT-XXXX`  
 *(Author identities and institutional affiliations have been strictly removed).*
 
 ---
@@ -247,7 +247,7 @@ If you find this code, benchmark manifests, or method useful, please cite our ma
   author    = {Maulana, Rifqi Alan and Amir, Supri},
   journal   = {Manuscript under review},
   year      = {2026},
-  url       = {https://github.com/RfqiAlan/KAN-SHOT-FSL}
+  url       = {https://github.com/RfqiAlan/KAN-SHOT}
 }
 ```
 
