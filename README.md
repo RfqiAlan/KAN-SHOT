@@ -66,8 +66,9 @@ KAN-SHOT-Publication-Ready/
 │   ├── run_phase_a.py            # Supervised ResNet-18 pretraining
 │   ├── run_phase_b_metric.py     # Metric head episodic training
 │   ├── visualize_kan_distance.py # Generates Figures 2 & 3
-│   ├── generate_figures.py       # Generates Figure 4 (Radar plot)
-│   └── visualize_tsne_cm.py      # Generates Figure 5 (Confusion matrix)
+│   ├── visualize_sfa_spatial.py  # Generates Figure 4 (SFA Spatial Triptych)
+│   ├── generate_figures.py       # Generates Figure 5 (Radar plot)
+│   └── visualize_tsne_cm.py      # Generates Figure 6 (Confusion matrix)
 │
 ├── checkpoints/                   # Model weights
 │   └── seed2021/
@@ -142,8 +143,9 @@ Computes paired Wilcoxon signed-rank tests with Bonferroni correction and Cohen'
 | **Figure 1** | Pipeline Architecture | `figures/fig1_architecture.jpg` |
 | **Figure 2** | SFA Top-20 Feature Importance | `python scripts/visualize_kan_distance.py` |
 | **Figure 3** | SFA 1D Spline Curves $\phi_j(\delta)$ | `python scripts/visualize_kan_distance.py` |
-| **Figure 4** | Robustness Radar Footprint | `python scripts/generate_figures.py` |
-| **Figure 5** | Confusion Matrix (LC 5-way) | `python scripts/visualize_tsne_cm.py` |
+| **Figure 4** | SFA Spatial Attribution Triptych | `python scripts/visualize_sfa_spatial.py` |
+| **Figure 5** | Robustness Radar Footprint | `python scripts/generate_figures.py` |
+| **Figure 6** | Confusion Matrix (LC 5-way) | `python scripts/visualize_tsne_cm.py` |
 
 ---
 
